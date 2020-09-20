@@ -487,7 +487,7 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext
+    #telephony-ext
 
 # Secure Element
 PRODUCT_PACKAGES += \
@@ -506,7 +506,7 @@ PRODUCT_PACKAGES += \
     vendor.nxp.hardware.nfc@1.0 \
     vendor.nxp.hardware.nfc@1.1-service
 
-PRODUCT_BOOT_JARS += com.nxp.nfc.nq
+PRODUCT_BOOT_JARS += #com.nxp.nfc.nq
 
 # Wifi
 PRODUCT_PACKAGES += \
@@ -529,5 +529,5 @@ PRODUCT_PACKAGES += \
 # Wi-Fi Display
 #ifneq ($(strip $(QCPATH)),)
 PRODUCT_BOOT_JARS += \
-    WfdCommon
+    #WfdCommon
 #endif
