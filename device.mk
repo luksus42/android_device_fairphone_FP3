@@ -67,7 +67,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
-    update_engine_sideload
+    #update_engine_sideload
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libcutils \
@@ -485,7 +485,7 @@ PRODUCT_PACKAGES += \
 
 # Telephony
 PRODUCT_PACKAGES += \
-    telephony-ext
+    #telephony-ext
 
 PRODUCT_BOOT_JARS += \
     #telephony-ext
